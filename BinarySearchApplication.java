@@ -23,13 +23,13 @@ public class BinarySearchApplication {
 
         BinarySearch cl = new BinarySearch(mas);
         // binary search function
-        int key_index = cl.SearchIndex(mas, key);
+        int key_index = cl.searchIndex(mas, key);
 
-        this.PrintSearchResults(key_index, key);
+        this.printSearchResults(key_index, key);
 
     }
 
-    public void PrintSearchResults(int result_index, double key) {
+    public void printSearchResults(int result_index, double key) {
         // print the results method
 
         if (result_index == -999)
